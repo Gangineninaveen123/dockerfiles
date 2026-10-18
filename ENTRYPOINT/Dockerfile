@@ -7,5 +7,6 @@ FROM almalinux:9
 #ENTRYPOINT ["ping", "google.com"]
 
 
+# ekkada, while doing docker run entry:v1 -> emi ika pothe google ni run chestundi, other than google ni isthe like docker run entry:v1 instagram.com , instagram ni ping avtundi
 CMD ["google.com"]
 ENTRYPOINT ["ping"]
